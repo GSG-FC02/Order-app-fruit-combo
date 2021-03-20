@@ -1,0 +1,131 @@
+/* General style for the whole project*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* styling the order list page*/
+.header-container {
+    height: 150px;
+background: #FFA451;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile-status-icons{
+    margin: 5px 5px;
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.time{
+margin: 5px 10px;
+width: 12%;
+height: 20px;
+line-height: 20px;
+color: white;
+background: red;
+border-radius: 10px;
+text-align: center;
+}
+.title-container{
+    margin: 35px 0 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.go-back{
+    margin-left:10px;
+    width: 22%;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.page-title{
+    margin-left: 30px;
+    color:white;
+    font-weight: lighter;
+    }
+#arrow{
+    font-weight: bold;
+    font-size:20px ;
+}
+/* list meals section style*/
+.meal-list-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meal , .meal3{
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-bottom: solid 2px #F3F4F9;
+margin-top: 10px;
+}
+.meal3{
+    border: none;
+}
+.img-meal1, .img-meal2, .img-meal3{
+    width: 23%;
+    height: 75px;
+    border-radius: 10px;
+    margin: 20px 0 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-meal1{
+    background-color:#f5cda8 ;
+}
+.img-meal2{
+    background-color:#F3F4F9 ;
+}
+.img-meal3{
+    background-color: #ffe1eb;
+    justify-self: center;
+}
+
+/* bottom nav style*/
+.bottom-nav{
+    width: 100%;
+    margin: 0 15px 45px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.total-container{
+    width: 26%;
+}
+.checkout{
+    margin-right:16px;
+    width: 57%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #FFA451;
+    color: white;
+    font-size: 20px;
+}
