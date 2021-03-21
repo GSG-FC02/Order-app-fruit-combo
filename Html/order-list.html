@@ -11,6 +11,21 @@
     <script src="https://kit.fontawesome.com/344e5e1084.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="form-popup" id="myForm">
+        
+        <form action="" id="form-container">
+        <button type="button" class="btn-cancel" onclick="closeForm()">&#215;</button>
+        <br>
+          <label for="address"><b>Delivery address</b></label>
+          <input type="text" placeholder="9th street, Al-Ziatoon, Gaza" name="address" required>
+      
+          <label for="telphone"><b>Number we can call</b></label>
+          <input type="tel" placeholder="09090605708" name="telphone" required>
+      
+          <button type="submit" class="btn-confirm">Confirm</button>
+          
+        </form>
+      </div>
     <header class ="header-container">
         <nav class ="header-nav">
             <p class="time">9:41<p>
@@ -28,16 +43,25 @@
     <section class="meal-list-container">
         <div class="meal"><div class="img-meal1"><img src="../assets/breakfast-quinoa-and-red-fruit-salad-134061-1-removebg-preview 1.png" ></div><div class="meal-name"><h3>Quinoa fruit salad</h3><p>2packs</p></div><h3 class="meal-cost">&#8358; 20,000</h3></div>  
         <div class="meal"><div class="img-meal2"><img src="../assets/BerryWorld-Kiwiberry-Fruit-Salad-LS-removebg-preview 1.png" ></div><div class="meal-name"><h3>Melon fruit salad</h3><p>2packs</p></div><h3 class="meal-cost">&#8358; 20,000</h3></div>
-        <div class="meal3"><div class="img-meal3"><img src="../assets/Best-Ever-Tropical-Fruit-Salad8-WIDE-removebg-preview 1.png" width="5px" height="50px" ></div><div class="meal-name"><h3>Tropical fruit salad</h3><p>2packs</p></div><h3 class="meal-cost">&#8358; 20,000</h3></div>
+        <div class="meal3"><div class="img-meal3"><img src="../assets/Best-Ever-Tropical-Fruit-Salad8-WIDE-removebg-preview 1.png" width="60px" height="50px" ></div><div class="meal-name"><h3>Tropical fruit salad</h3><p>2packs</p></div><h3 class="meal-cost">&#8358; 20,000</h3></div>
     </section>
     <footer class="bottom-nav">
         <div class="total-container">
             <h4>Total</h4>
             <h2> &#8358; 60,000</h2>
         </div>
-        <button class="checkout">Checkout</button>
+        <button class="checkout" onclick="openForm()">Checkout</button>
     </footer>
 
-    
+    <script>
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+       
+        }
+        
+        function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+        }
+        </script>
 </body>
 </html>
