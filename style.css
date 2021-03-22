@@ -11,7 +11,7 @@
 
 /* styling the order list page*/
 .header-container {
-    height: 150px;
+    height: 180px;
 background: #FFA451;
 display: flex;
 flex-direction: column;
@@ -196,7 +196,11 @@ margin-top: 10px;
   #form-container .btn-confirm:hover, .checkout:hover {
     opacity: 0.8;
   }
-
+.btn-confirm a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
 .container {
   width: 100%;
   height: 100%;
@@ -755,7 +759,7 @@ nav .links li a {
   letter-spacing: -0.2px;
   position: absolute;
   top: 123px;
-  width: 150px;
+  width: 65%;
 }
 .home-screen-one .text-9 {
   height: 23px;
