@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .header-container {
+    height: 300px;
+  background: #FFA451;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+  }
+  .header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      border-radius: 8px;
+  
+  }
+  .header-img{
+    position: absolute;
+    width: 100px;
+    justify-content: center;
+    position: absolute;
+    width: 176px;
+    height: 173px;
+    left: 90px;
+    top: 109px;
+  }
+  
+  .mobile-status-icons{
+    margin: 5px 5px;
+    list-style: none;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .time{
+  margin: 5px 10px;
+  width: 12%;
+  height: 20px;
+  line-height: 20px;
+  color: white;
+  background: red;
+  border-radius: 10px;
+  text-align: center;
+  }
+  .title-container{
+    margin: 35px 0 10px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  
+  .go-back{
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 24px;
+    top: 72px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: 2px solid #FFFFFF;
+    padding-left: 10px;
+  } 
+  .icon-go-back{
+    position: absolute;
+    left: 30px;
+    top: 80px;
+  }
+  .meal-cost{
+    margin-left: 20px;
+  
+  }
+  .icon-order {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 30px;
+    border-bottom: 1px solid #f3f3f3;
+  }
+  
+  
+  .order2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list-container {
+    position: absolute;
+    background-color: white;
+    top: 351px;
+    border-radius: 32px;
+    width: 100%;
+    height: 100%;
+  }
+  .imgs{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .minus,.plus {
+    width: 40px;
+    height: 40px;
+    margin: 26px;
+    margin-top: 3px;
+  }
+  .meal-cost {
+    margin-right: 13px;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .basket-container{
+    height: 10%;
+    margin-bottom: 50px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  .Add{
+    margin-right:50px;
+    width: 130%;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #FFA451;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .img{
+  
+  width:50px;
+  height:50px;
+  
+  margin-right:16px;
+  background-color:#fcead9 ;
+  border-radius: 70%;
+  }
+  
+  .Quinoa-Fruit {
+    position: absolute;
+    width: 231px;
+    height: 32px;
+    left: 24px;
+    font-weight: bold;
+    font-size: 21px;
+  }
+  .third {
+    position: absolute;
+    left: 24px;
+    top: 130px;
+  }
+  .one-pack {
+    font-size: 15px;
+    width: 150px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffa451;
+    color: #27214D;
+  }
+  .red {
+    font-size: 15px;
+    font-weight: bolder;
+    border-bottom: 1px solid #f3f3f3;
+    height: 66px;
+    color: #27214D;
+  }
+  .basket-container{
+    font-size: 13px;
+    position: absolute;
+    width: 284px;
+    height: 42px;
+    left: 24px;
+    top: 220px;
+    color: black;
+  }
+  .footer-section {
+    position: absolute;
+    top: 700px;
+    display: flex;
+  }
+  .img {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 9px;
+  }
+  .add {
+    width: 219px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffa451;
+    color: white;
+    font-size: 15px;
+  }
