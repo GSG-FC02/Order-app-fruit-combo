@@ -36,4 +36,5 @@ Project is divided into mainly 6 tasks. Each task is regarding each page.
 
 ## GitHub pages
 
-<b> visit our app here:<b>
+<b> visit our app here:
+  https://gsg-fc02.github.io/Order-app-fruit-combo/ <b>
